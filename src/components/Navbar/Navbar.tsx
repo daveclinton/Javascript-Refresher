@@ -3,8 +3,10 @@ import "./Navbar.css";
 function Navbar() {
   return (
     <nav className="main-nav">
-      <a href="/">Logo</a>
-      <button className="brand-name">
+      <a href="/" className="brand-name">
+        Logo
+      </a>
+      <button className="hamburger">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className="h-5 w-5"
