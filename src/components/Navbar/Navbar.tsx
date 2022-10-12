@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <nav className="main-nav">
       <a href="/" className="brand-name">
-        Logo
+        daveClinton
       </a>
       <button className="hamburger">
         <svg
