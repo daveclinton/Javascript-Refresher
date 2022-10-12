@@ -49,3 +49,12 @@
 .hamburger:hover {
   background-color: #2642af;
 }
+
+@media screen and (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+  .nav-menu ul {
+    display: none;
+  }
+}
