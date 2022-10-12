@@ -1,12 +1,20 @@
+import { useState } from "react";
 import "./Navbar.css";
 
 function Navbar() {
+  const [expandedNavbar, setexpandedNavbar] = useState(false);
+
   return (
     <nav className="main-nav">
       <a href="/" className="brand-name">
         daveClinton
       </a>
-      <button className="hamburger">
+      <button
+        className="hamburger"
+        onClick={() => {
+          setexpandedNavbar(!expandedNavbar);
+        }}
+      >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className="h-5 w-5"
@@ -20,7 +28,7 @@ function Navbar() {
           />
         </svg>
       </button>
-      <div className="nav-menu">
+      <div className={"nav-menu"}>
         <ul>
           <li>
             <a href="/home">Home</a>

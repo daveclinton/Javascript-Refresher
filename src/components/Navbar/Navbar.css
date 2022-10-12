@@ -55,7 +55,7 @@
     display: block;
   }
   .nav-menu ul {
-    /* display: none; */
+    display: block;
     position: absolute;
     top: 60%;
     left: 0;
@@ -73,4 +73,7 @@
   .nav-menu li:hover {
     background-color: #eee;
   }
+  /* .nav-menu.expanded ul {
+    display: block;
+  } */
 }
