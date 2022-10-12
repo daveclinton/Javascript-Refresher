@@ -55,6 +55,22 @@
     display: block;
   }
   .nav-menu ul {
-    display: none;
+    /* display: none; */
+    position: absolute;
+    top: 60%;
+    left: 0;
+    flex-direction: column;
+    width: 100%;
+    height: calc(100vh - 77px);
+    background-color: white;
+    border-top: 1px solid black;
+  }
+  .nav-menu li a {
+    color: black;
+    width: 100%;
+    padding: 1.5rem 0;
+  }
+  .nav-menu li:hover {
+    background-color: #eee;
   }
 }
